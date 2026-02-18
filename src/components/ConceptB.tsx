@@ -51,7 +51,7 @@ export default function ConceptB() {
         </div>
 
         <div className="mt-16 px-6 py-4 bg-black border-2 border-purple-500 text-purple-400 font-mono text-sm shadow-[0_0_25px_rgba(128,0,255,0.6)] relative">
-          <div className="absolute inset-0 bg-gradient-to-r from-purple-500/20 via-cyan-500/20 to-pink-500/20 animate-pulse"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-purple-500/20 via-cyan-500/20 to-pink-500/20 motion-safe:animate-pulse"></div>
           <div className="relative z-10">
             {'[ ☁️ SYSTEM INFO: Built by CCA // Cloud Architecture v2.0 ]'}<br/>
             {'[ STATUS: 100% Cooler Than Expected 😎 // All Systems Nominal ✨ ]'}
