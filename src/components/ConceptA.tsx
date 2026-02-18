@@ -51,6 +51,11 @@ export default function ConceptA() {
             OR HERE!
           </button>
         </div>
+
+        <div className="mt-16 inline-block px-6 py-3 bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 text-white border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] font-bold text-lg transform -rotate-1 animate-pulse">
+          ☁️ Proudly crafted by CCA in the cloud! ☁️<br/>
+          <span className="text-sm">Warning: May contain traces of awesome! 😎✨</span>
+        </div>
       </div>
     </main>
   );
