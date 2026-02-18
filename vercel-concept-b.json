@@ -1,0 +1,5 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "VITE_UI_VARIANT=concept-b npm run build",
+  "framework": "vite"
+}

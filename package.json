@@ -6,7 +6,11 @@
   "scripts": {
     "dev": "vite",
     "dev:prod": "vite --mode production",
+    "dev:concept-a": "VITE_UI_VARIANT=concept-a vite",
+    "dev:concept-b": "VITE_UI_VARIANT=concept-b vite",
     "build": "vite build",
+    "build:concept-a": "VITE_UI_VARIANT=concept-a vite build",
+    "build:concept-b": "VITE_UI_VARIANT=concept-b vite build",
     "preview": "vite preview",
     "lint": "eslint .",
     "format": "prettier --write .",
