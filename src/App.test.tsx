@@ -2,10 +2,10 @@ import { render, screen } from "@testing-library/react";
 import App from "./App";
 
 describe("App", () => {
-  it("renders the headline", () => {
+  it("renders hello world", () => {
     render(<App />);
     expect(
-      screen.getByRole("heading", { name: /vite \+ react \+ tailwind \+ supabase/i })
+      screen.getByRole("heading", { name: /hello world/i })
     ).toBeInTheDocument();
   });
 });
